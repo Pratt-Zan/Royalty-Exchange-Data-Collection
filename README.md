@@ -744,6 +744,18 @@ The final dataset uses **numeric IDs** throughout. Old-format slug names are map
 
 ---
 
+## Some Manual Actions
+
+### 1. Adding of Json 5450 & 6354
+
+In the scraping of sources of json files, there are 2 files that is too large to be downloaded by the code, which can only be downloaded by saving them directly.
+
+### 2. Regarding text fields
+
+To ensure accuracy, some final results are still stored as text without undergoing further data processing, which requires subsequent determination.
+
+---
+
 <br>
 <hr>
 <br>
@@ -1437,3 +1449,15 @@ Rows 28–41 无法仅从 API JSON 中提取（需要 HTML 表格信息）。三
 ### 7. 统一的 ID 系统
 
 最终数据集全程使用**数字 ID**。旧格式的 slug 名称通过 HTML 中嵌入的 `auctionId`（或针对 buy-it-now 项的手工映射）映射为数字 ID。这确保所有资产具有一致的键值标识。
+
+---
+
+## 一些人工操作
+
+### 1. 加入 5450 & 6354.json
+
+由于这两个文件的大小过大，导致正常的coding无法直接下载，我们需要手动取下载这两个数据并将其格式统一后分别存放。
+
+### 2. 关于文字字段
+
+由于为了尽量准确，部分最后结果依旧是按照文本存储，并没有进行下一步数据化操作，这是需要后续下一步判定的。
